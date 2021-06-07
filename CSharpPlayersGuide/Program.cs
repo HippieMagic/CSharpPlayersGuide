@@ -6,7 +6,7 @@ namespace CSharpPlayersGuide
     {
         static void Main(string[] args)
         {
-            Lvl6.TheVariableShop.Variables();
+            Lvl7.TheTriangleFarmer.Area();
         }
     }
 }
