@@ -6,7 +6,7 @@ namespace CSharpPlayersGuide.Lvl3
     {
         public static void Hello()
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Anything but Hello World!");
         }
     }
 }
