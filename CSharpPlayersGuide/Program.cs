@@ -6,7 +6,7 @@ namespace CSharpPlayersGuide
     {
         static void Main(string[] args)
         {
-            Lvl3.HelloWorld.Hello();
+            Lvl3.MakingsOfAProgrammer.Makings();
         }
     }
 }
