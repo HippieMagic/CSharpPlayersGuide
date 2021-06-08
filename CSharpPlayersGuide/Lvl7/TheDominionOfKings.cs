@@ -22,7 +22,7 @@ namespace CSharpPlayersGuide.Lvl7
             pointTotal += duchies * 3;
             pointTotal += estates;
 
-            Console.WriteLine("Your point total is: {0}", pointTotal);
+            Console.WriteLine($"Your point total is: {pointTotal}");
         }
     }
 }

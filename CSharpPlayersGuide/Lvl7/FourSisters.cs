@@ -11,10 +11,10 @@ namespace CSharpPlayersGuide.Lvl7
             int eggCount = Convert.ToInt32(answer);
 
             int eggsPerSister = eggCount / 4;
-            Console.WriteLine("Each sister gets {0} eggs.", eggsPerSister);
+            Console.WriteLine($"Each sister gets {eggsPerSister} eggs.");
 
             int eggsForDuckbear = eggCount % 4;
-            Console.WriteLine("The duckbear gets {0} eggs.", eggsForDuckbear);
+            Console.WriteLine($"The duckbear gets {eggsForDuckbear} eggs.");
         }
     }
 }
