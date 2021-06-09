@@ -6,7 +6,7 @@ namespace CSharpPlayersGuide
     {
         static void Main(string[] args)
         {
-            Lvl7.TheDominionOfKings.Holdings();
+            Lvl8.TheDefenseOfConsolas.Defense();
         }
     }
 }
