@@ -25,10 +25,6 @@ namespace CSharpPlayersGuide.Lvl9
             } else if (x < 0 && y == 0)
             {
                 direction = "west";
-            }
-            else if (x == 0 && y == 0)
-            {
-                direction = "!";
             } else if (x > 0 && y == 0)
             {
                 direction = "east";
@@ -41,6 +37,12 @@ namespace CSharpPlayersGuide.Lvl9
             } else if (x > 0 && y < 0)
             {
                 direction = "southeast";
+            }
+            else
+            {
+                // this is (0,0)
+                // it made the most sense to put in an else
+                direction = "!";
             }
 
             if (direction != "!")
