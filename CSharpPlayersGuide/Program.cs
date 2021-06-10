@@ -6,7 +6,7 @@ namespace CSharpPlayersGuide
     {
         static void Main(string[] args)
         {
-            Lvl8.TheDefenseOfConsolas.Defense();
+            Lvl9.RepairingTheClocktower.TickTock();
         }
     }
 }
