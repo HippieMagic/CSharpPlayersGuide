@@ -6,7 +6,7 @@ namespace CSharpPlayersGuide
     {
         static void Main(string[] args)
         {
-            Lvl10.Inventory.Buying();
+            Lvl10.Inventory.Discount();
         }
     }
 }
