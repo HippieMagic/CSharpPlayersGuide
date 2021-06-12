@@ -20,7 +20,7 @@ namespace CSharpPlayersGuide.Lvl10
             string response;
             response = selection switch
             {
-                1 => "Rope costs 10 gold.",
+                1 => "Ropes cost 10 gold.",
                 2 => "Torches cost 15 gold.",
                 3 => "Climbing Equipment costs 25 gold.",
                 4 => "Clean Water costs 1 gold.",
