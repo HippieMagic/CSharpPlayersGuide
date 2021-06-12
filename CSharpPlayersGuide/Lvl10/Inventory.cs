@@ -31,7 +31,6 @@ namespace CSharpPlayersGuide.Lvl10
             MenuText();
             int selection = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("What is your name?");
-            //string name = Console.ReadLine();
             bool discount = Console.ReadLine().ToLower() == "nick";
             string response;
             double cost;
