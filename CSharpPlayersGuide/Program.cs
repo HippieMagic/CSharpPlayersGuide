@@ -6,7 +6,7 @@ namespace CSharpPlayersGuide
     {
         static void Main(string[] args)
         {
-            Lvl11.ThePrototype.Proto();
+            Lvl11.TheMagicCannon.Pew();
         }
     }
 }
