@@ -6,7 +6,7 @@ namespace CSharpPlayersGuide
     {
         public static void Main(string[] args)
         {
-            Lvl12.TheReplicator.DTo();
+            Lvl12.TheLaws.Freach();
         }
     }
 }
