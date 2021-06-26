@@ -23,15 +23,15 @@ namespace CSharpPlayersGuide.Lvl12
             }
             
             Console.WriteLine("The original array is: ");
-            foreach (var t in originalArray)
+            for (int i = 0; i < originalArray.Length; i++)
             {
-                Console.WriteLine(t);
+                Console.WriteLine(originalArray[i]);
             }
             
             Console.WriteLine("The new array contains: ");
-            foreach (var t in copiedArray)
+            for (int i = 0; i < originalArray.Length; i++)
             {
-                Console.WriteLine(t);
+                Console.WriteLine(copiedArray[i]);
             }
         }
     }
